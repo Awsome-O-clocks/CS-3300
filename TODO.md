@@ -2,9 +2,10 @@
 
 - Assign Tech Lead
     - @Awalker17 - Tech Lead
+    - Tech lead will be responsible for code review, merging and approving PRs
 - Assign Scrum Lead
     - @topazstix - Scrum Lead
-
+    - Scrum lead will be responsible for running scrum meetings and keeping the team on track
 
 ## Assignments
 
