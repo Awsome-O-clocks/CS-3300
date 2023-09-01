@@ -1,9 +1,24 @@
 # Documentation of How To
 ## Contents
+- [Usefull Commands](#Usefull-Commands)
 - [Push Help](#Pushing)
   - [Push Permision Error](#Permission-Error)
   - [Push Rejected Error](#Rejected-Error)
 - [Tagging](#Tagging)
+
+## Usefull Commands
+
+`cd` Change directory 
+
+`git status` gives you a summary of what you have edited
+
+`git log` shows you a summary of all the commits that have been done
+
+`git branch` shows a list of all branches including which one your in
+
+`git branch name` creates a branch with that name\
+
+`ls` shows the files in current directory
   
 ## Pushing
 Once you have edited all the files you want go ahead and do this.
