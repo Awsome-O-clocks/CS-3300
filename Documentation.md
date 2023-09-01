@@ -1,25 +1,11 @@
-# Documentation of how to solve seen issues
+# Documentation of How To
 ## Contents
 - [Push Help](#Pushing)
-- [Push Permision Error](#Permission-Error)
-- [Push Rejected Error](#Rejected-Error)
+  - [Push Permision Error](#Permission-Error)
+  - [Push Rejected Error](#Rejected-Error)
+- [Tagging](#Tagging)
   
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus
- et netus et malesuada fames ac. In eu mi bibendum neque. Dolor morbi non arcu risus quis varius quam. In pellentesque massa placerat duis ultricies. Id consectetu
-r purus ut faucibus pulvinar elementum. Tellus id interdum velit laoreet id donec. Id interdum velit laoreet id donec ultrices. Aliquam ultrices sagittis orci a sce
-lerisque purus semper. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Donec adipiscing tristique risus nec feugiat in fermentum posuere
- urna. Facilisi nullam vehicula ipsum a. Ac tortor vitae purus faucibus ornare suspendisse. Felis imperdiet proin fermentum leo vel orci porta. Nunc consequat inter
-dum varius sit amet. Id faucibus nisl tincidunt eget nullam non nisi est. Tincidunt eget nullam non nisi est. Amet justo donec enim diam vulputate ut pharetra. Turp
-is tincidunt id aliquet risus feugiat in ante. Eros donec ac odio tempor orci dapibus ultrices.
-
-
-Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat. Tortor aliquam nulla facilisi cras fermentum odio eu. Donec adipiscing tristique risus 
-nec. Tempus egestas sed sed risus pretium. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Leo duis ut diam quam nulla. Sem et tortor cons
-equat id. Commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit. Ut pharetra sit amet aliquam. Sagittis orci a scelerisque purus semper eget d
-uis. Sit amet facilisis magna etiam. Vitae turpis massa sed elementum. Quis eleifend quam adipiscing vitae. Nisl nunc mi ipsum faucibus.
-
-
-### Pushing
+## Pushing
 Once you have edited all the files you want go ahead and do this.
 ```
 git add .
@@ -51,5 +37,26 @@ then your push is conflicting with your current version try:
 ```
 git pull origin
 ```
+Now you can run your push command
+
+## Tagging
+
+When your ready to tag a version heres how. First your going to want to find the commit ID run
+```
+git log  --pretty=oneline
+```
+This will show you all the commits you've done look for the one that has the message you are looking for and note the first 5 or so characters of 
+the Commit ID.
+Next run the commands
+```
+git tag -a <label your tag> -m <add a description here> <commit ID>
+git push origin --tags
+```
+If you want to check the tags curently saved run
+```
+git tag
+```
+
+
 
 
