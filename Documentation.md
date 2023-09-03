@@ -100,7 +100,7 @@ I recomend fallowing this guide.
 
 After step three go to this page and follows these instuctiions.
 
-[Add ssh to accout](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+[Add ssh to account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 ## Markdown
 
