@@ -113,8 +113,8 @@ But if your looking for a short and fast cheat sheet.
 ## medium
 ### smaller
 
-tripple pike: ``` opens a code block with ```
-a single pike: ` opens a code line with `
+tripple pike: ``` opens a code block and closes with ```
+a single pike: ` opens a code line and closes with `
 
 [text](Link)
 [text](# heading)
