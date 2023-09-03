@@ -16,9 +16,26 @@
 
 `git branch` shows a list of all branches including which one your in
 
-`git branch name` creates a branch with that name\
+`git branch name` creates a branch with that name
 
 `ls` shows the files in current directory
+
+`git stash` allows you to update the repository without geting rid of your changes
+
+## Vim navigation
+
+`i` Insert, edit document
+
+`w` Save
+
+`:wq` Allows you save your documents and quit
+
+`:wq!` Quit without saving
+
+`Esc` Access the comand line foor vim
+
+`:help` Help page `:q` to exit help page
+
   
 ## Pushing
 Once you have edited all the files you want go ahead and do this.
