@@ -116,5 +116,8 @@ But if your looking for a short and fast cheat sheet.
 tripple pike: ``` opens a code block with ```
 a single pike: ` opens a code line with `
 
+[text](Link)
+[text](# heading)
+
 ```
 
