@@ -126,5 +126,5 @@ A team memember was never recived the invation to the organization, after being 
 They eventualy descovered that the invatation was under the organizations tab in their github.
 [!NOTE]
 You can check your organizations in the organizations Tab.
-![The oganizations tab is in the righthand menu](C:\Users\alxan\Pictures\tempsnip)
+![The oganizations tab is in the righthand menu](https://github.com/Awsome-O-clocks/CS-3300/assets/98062325/7009aa90-7e32-4684-bbe0-e5eb5cf616d3)
 
