@@ -8,7 +8,7 @@
 - [Tagging](#Tagging)
 - [Ssh key](#ssh-key-creation)
 - [Markdown](#Markdown)
-
+- [Misc](#Misc)
 ## Usefull Commands
 
 `cd` Change directory 
@@ -120,4 +120,11 @@ a single pike: ` opens a code line and closes with `
 [text](# heading)
 
 ```
+
+# Misc
+A team memember was never recived the invation to the organization, after being added as a colaborator.
+They eventualy descovered that the invatation was under the organizations tab in their github.
+[!NOTE]
+You can check your organizations in the organizations Tab.
+![The oganizations tab is in the righthand menu](C:\Users\alxan\Pictures\tempsnip)
 
