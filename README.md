@@ -4,3 +4,4 @@
 
 ## Table of Contents
 - [Github Commandline Cheatsheet](./Cheatsheets/git-commands.md)
+- [Git Help and Markdown](Documentation.md)
