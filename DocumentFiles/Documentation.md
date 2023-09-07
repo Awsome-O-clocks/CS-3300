@@ -90,7 +90,8 @@ stash@{0}: WIP on master: 9fd72D12 File Added
 
 That first part is important if you want to veiw the changes you made.
 Run `git stash show -p stash@{#}` 
-> [!IMPORTANT] replace the # with what ever number you want to view.
+> [!IMPORTANT]
+> replace the # with what ever number you want to view.
 
 Now you can pull the repository from here.
 Now if you want to push the stash to the origin.
