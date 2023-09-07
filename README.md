@@ -6,3 +6,4 @@
 - [Git and Github Setup](./DocumentFiles/git-commands.md)
 - [Git Help and Markdown](./DocumentFiles/Documentation.md)
 - [Django](./DocumentFiles/Django.md)
+- [Scrum Lead Documentation/Tutorial](./DocumentFiles/Scrum.md)
