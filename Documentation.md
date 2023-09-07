@@ -35,7 +35,7 @@
 
 `:wq!` Quit without saving
 
-`Esc` Access the comand line foor vim
+`Esc` Access the comand line for vim
 
 `:help` Help page `:q` to exit help page
 
@@ -122,7 +122,7 @@ a single pike: ` opens a code line and closes with `
 ```
 
 # Misc
-A team memember was never recived the invation to the organization, after being added as a colaborator.
+A team member never recived the invation to the organization, after being added as a colaborator.
 They eventualy descovered that the invatation was under the organizations tab in their github.
 
 > [!NOTE]
