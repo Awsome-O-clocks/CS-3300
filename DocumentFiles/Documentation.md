@@ -5,6 +5,7 @@
 - [Push Help](#Pushing)
   - [Push Permision Error](#Permission-Error)
   - [Push Rejected Error](#Rejected-Error)
+- [Stashing](#Stashing)
 - [Tagging](#Tagging)
 - [Ssh key](#ssh-key-creation)
 - [Markdown](#Markdown)
