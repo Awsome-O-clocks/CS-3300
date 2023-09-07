@@ -127,6 +127,22 @@ After step three go to this page and follows these instuctiions.
 
 [Add ssh to account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
+For Powershell Setup:
+
+Windows has built-in OpenSSH into it since 2018
+Open up terminal or PowerShell and run the following command
+
+`ssh-keygen -t ed25519`
+
+Using ed 25519 because GitHub recommends it you then will be prompted
+for the key's name and where you want to save it.
+
+Next will prompt for a passphrase the output should look like the following if done right:
+
+![ssh-key gen](/Documentation-Developement/DocumentFiles/images/ssh-key-output.avif)
+
+
+
 ## Markdown
 
 If your writing or editing this document then your more than welcome to look at the 'code' for this page.
