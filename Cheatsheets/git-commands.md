@@ -1,4 +1,4 @@
-# Github Commandline Cheatsheet
+# Git and Github Setup
 
 
 ## Install git locally on your machine
