@@ -166,6 +166,9 @@ a single pike: ` opens a code line and closes with `
 A team member never recived the invation to the organization, after being added as a colaborator.
 They eventualy descovered that the invatation was under the organizations tab in their github.
 
+Issues with GE02:
+-Matthew didn't know that he had to restart the virtual environment before visiting the local host link on port 8000. When he realized that, he started the virtual environment every time he returned to the GE02 assignment and was able to access the link.
+
 > [!NOTE]
 > You can check your organizations in the organizations Tab.
 
