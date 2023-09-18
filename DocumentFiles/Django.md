@@ -10,7 +10,8 @@ For this setup you may be intrested in fallowing this [page](https://docs.django
 I found the most sucsess using powershell but if you find CMD works for you go for it!
 
 Start by seting up your virtual environment.
-> [!IMPORTANT] Remember to replace the project Name with what you want the project to be called for the entirety of this guide.
+> [!IMPORTANT]
+> Remember to replace the project Name with what you want the project to be called for the entirety of this guide.
 
 ```py -3 -m venv Project_name```
 Now you can activate the virtual environment
@@ -21,10 +22,10 @@ Now that the venv is active you can install django.
 You may want to upgrade pip at this time.
 ```python3 -m pip install --upgrade pip```
 
-For Help on creating a project go [here](#Project Startup) PAGE NOT CREATED YET
+For Help on creating a project go [here](#Project-Setup) PAGE NOT CREATED YET
 
 To deactivate your virtual environment run Ctrl-C (if you have a django project running) then enter deactivate.
 
-
+# Project Setup
 
 
