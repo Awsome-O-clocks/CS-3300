@@ -30,7 +30,7 @@ You may want to upgrade pip at this time.
 python3 -m pip install --upgrade pip
 ```
 
-For Help on creating a project go [here](#Project-Setup) PAGE NOT CREATED YET
+For Help on creating a project go [here](#Project-Setup)
 
 To deactivate your virtual environment run Ctrl-C (if you have a django project running) then enter deactivate.
 
