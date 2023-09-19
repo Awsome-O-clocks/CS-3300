@@ -168,12 +168,14 @@ They eventualy descovered that the invatation was under the organizations tab in
 
 Issues with GE02:
 Matthew:
--Didn't know that he had to restart the virtual environment before visiting the local host link on port 8000. When he realized that, he started the virtual environment every time he returned to the GE02 assignment and was able to access the link.
+Didn't know that he had to restart the virtual environment before visiting the local host link on port 8000. When he realized that, he started the virtual environment every time he returned to the GE02 assignment and was able to access the link.
 
 Ray:
--Visual studio command line wasn't working. Corrected the issue by researching online and going to the UCCS Math Center. 
--Under "Devind URI Path and Views" in GE02 document, didn't get the right screenshot on question 8. Fixed the problem by going back and making sure all the HTML files had the correct syntax. Found a bracket in the wrong place, which fixed the screenshot.
--Intial push to GitHub was difficult and had to look up the correct commands.
+Visual studio command line wasn't working. Corrected the issue by researching online and going to the UCCS Math Center. 
+
+Under "Devind URI Path and Views" in GE02 document, didn't get the right screenshot on question 8. Fixed the problem by going back and making sure all the HTML files had the correct syntax. Found a bracket in the wrong place, which fixed the screenshot.
+
+Intial push to GitHub was difficult and had to look up the correct commands.
 
 > [!NOTE]
 > You can check your organizations in the organizations Tab.
