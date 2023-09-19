@@ -9,7 +9,7 @@
 - [Tagging](#Tagging)
 - [Ssh key](#ssh-key-creation)
 - [Markdown](#Markdown)
-- [Misc](#Misc)
+- [User Error Solutions](#User-Error-Solutions)
 
 ## Usefull Commands
 
@@ -162,7 +162,7 @@ a single pike: ` opens a code line and closes with `
 
 ```
 
-# Misc
+# User Error Solutions
 A team member never recived the invation to the organization, after being added as a colaborator.
 They eventualy descovered that the invatation was under the organizations tab in their github.
 
