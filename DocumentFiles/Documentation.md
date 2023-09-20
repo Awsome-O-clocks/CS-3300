@@ -182,6 +182,14 @@ Under "Devind URI Path and Views" in GE02 document, didn't get the right screens
 
 Intial push to GitHub was difficult and had to look up the correct commands.
 
+Robert:
+
+Had directories in the wrong locations, which caused an error
+![image](https://github.com/Awsome-O-clocks/CS-3300/assets/98108967/ae2ed4c6-f086-4bbf-aef1-3d7b39eef595)
+
+Was able to get the correct error screenshot after fixing directories
+![image](https://github.com/Awsome-O-clocks/CS-3300/assets/98108967/93f5347b-b941-412b-a3ac-e9fcaec07469)
+
 > [!NOTE]
 > You can check your organizations in the organizations Tab.
 
