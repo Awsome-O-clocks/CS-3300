@@ -163,7 +163,9 @@ a single pike: ` opens a code line and closes with `
 ```
 
 # User Error Solutions
-A team member never recived the invation to the organization, after being added as a colaborator.
+Issues with GE01:
+
+A team member never received the invation to the organization, after being added as a colaborator.
 They eventualy descovered that the invatation was under the organizations tab in their github.
 
 Issues with GE02:
