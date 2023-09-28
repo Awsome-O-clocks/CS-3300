@@ -199,7 +199,7 @@ Issues with GE03:
 
 Alex:
 When ever she tried to migrate, recieved this error:
-![Not null constraint failed](<img width="697" alt="Capture" src="https://github.com/Awsome-O-clocks/CS-3300/assets/98062325/a6ac917e-21cb-4ead-8b7e-c8f2f1b1aff4">)
+![Not null constraint failed](https://github.com/Awsome-O-clocks/CS-3300/blob/Documentation-Developement/DocumentFiles/images/Not%20Null%20constraint.PNG)
 
 Fix: Delete db.sqlite3 file, then delete all migrations in Migration file, run `python manage.py flush` answer yes, run migrate, then run makemigrations then migrate again.
 run server.
