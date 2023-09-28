@@ -195,3 +195,14 @@ Was able to get the correct error screenshot after fixing directories
 
 ![The oganizations tab is in the righthand menu](https://github.com/Awsome-O-clocks/CS-3300/assets/98062325/98d60864-889d-485e-9343-3230a4a0d295)
 
+Issues with GE03:
+
+Alex:
+When ever she tried to migrate, recieved this error:
+![Not null constraint failed](![image](https://github.com/Awsome-O-clocks/CS-3300/assets/98062325/ca69b064-ad75-4d17-b2e7-f14e83259fd5))
+
+Fix: Delete db.sqlite3 file, then delete all migrations in Migration file, run `python manage.py flush` answer yes, run migrate, then run makemigrations then migrate again.
+run server.
+
+
+
