@@ -198,11 +198,13 @@ Was able to get the correct error screenshot after fixing directories
 Issues with GE03:
 
 Alex:
-When ever she tried to migrate, recieved this error:
+When ever she tried to migrate, recieved this error: (Posibly due to attemting to migrate with a populated database)
 ![Not null constraint failed](https://github.com/Awsome-O-clocks/CS-3300/blob/Documentation-Developement/DocumentFiles/images/Not%20Null%20constraint.PNG)
 
 Fix: Delete db.sqlite3 file, then delete all migrations in Migration file, run `python manage.py flush` answer yes, run migrate, then run makemigrations then migrate again.
 run server.
+
+
 
 
 
