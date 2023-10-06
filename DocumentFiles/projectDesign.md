@@ -1,46 +1,34 @@
 # Project Design
 
 ## Table of contents
-
-- [Problem Statement](#Problem_Statement)
+- [User Stories](#user-stories)
 - [Gather Information](#gather-information)
-- [User Stories]
-- [Acceptance Criteria]
+- [Problem Statement](#Problem_Statement)
 
 
-# Problem Statement
-
+# User Stories
 ### Resources
 
-[What is a problem statement](https://careerfoundry.com/en/blog/ux-design/problem-statement-ux/) 
+[What is a user stories](https://careerfoundry.com/en/blog/ux-design/problem-statement-ux/) 
 
-[How to write an Effective Problem Statement](https://www.isixsigma.com/getting-started/how-to-write-an-effective-problem-statement/#:~:text=Key%20elements%20of%20an%20effective,environmental%2C%20personal%2C%20etc.)
 
-You want to make your problem statement during define stage of the design thinking process.
+You want to make your user stories during define stage of the design thinking process.
 
 ![5 steps of the design phase: empathise, define, ideate, prototype, test](.\images\5-steps-design-thinking-process.jpg)
 
-### What is a problem statement
 
-A problem statement is an actionable summary of your user, their goals, and steps to take to meet those goals. There is a strong emphasis on why you design a functionality not how.
+### What is a User Story
+
+A user story is an actionable summary of your user, their goals, and steps to take to meet those goals. There is a strong emphasis on why you design a functionality not how.
 The goal of your user story is to set a path to create a user's experiance.  
 
-A problem statement doesn't include design elements or user funtionality. 
+A user story doesn't include design elements or user funtionality. 
 
-Key elements of an effective problem statement include:
+### How to write a user story
 
-- Gap: Identify the gap (pain) that exists today.
-- Timeframe, location and trend: Describe when and where the problem was first observed and what kind of trend it is following.
-- Impact: Quantify the gap (cost, time, quality, environmental, personal, etc.)
-- Importance: To the organization, the individual, etc. to better understand the urgency.
+When writing your user stories remember all the information gathered while engaging with users. Wheile conducting interveiws, how did the users interact with other products? What caused frustiation? What was easy?
 
--- Isixsigma, Rod Morgan
-
-### How to write a problem statement
-
-When writing your problem statement remember all the information gathered while engaging with users. Wheile conducting interveiws, how did the users interact with other products? What caused frustiation? What was easy?
-
-While writing the problem statement remember:
+While writing the user stories remember:
 
 - Who: Who is impacted by this issue? Make sure to get specific by including information from what you know about users’ demographics, psychographics, personas, and other findings from user research.
 - What: What is the problem? What are the obstacles users are facing? What are they trying to do? What will make the process less difficult?
@@ -51,6 +39,8 @@ While writing the problem statement remember:
 
 Describe who the users are, what they want, where they'll use the product, why their problem is important. 
 
+
+
 ### Examples
 
 > Parents need a way to quickly and easily access high-quality information about teaching their kids how to avoid internet scams because currently it is hard to find resources about this topic, which leads to uncertainty.
@@ -60,6 +50,12 @@ Describe who the users are, what they want, where they'll use the product, why t
 > A single young adult’s problem is that she doesn’t know anyone in the new city she just moved to. How can we help her figure out where to go to meet people and make friends so she doesn’t feel isolated?
 
 > A parent of two needs to find high-quality resources in order to successfully teach his kids how to avoid internet scams.
+
+## Formatting
+
+Connextra:
+As a _____ [role -> persona], I want _____ [requirement -> output], so _____ [reason -> outcome]. The third R (reason) part of this template is optional. 
+
 
 
 # Gather Information
@@ -93,3 +89,30 @@ Describe who the users are, what they want, where they'll use the product, why t
 5) Marketing, Email list and Ads.
     * Who is responding to your emails/ads
     * Time of day you get the most responce?
+
+# Problem Statement
+
+
+[How to write an Effective Probelem Statement](https://www.isixsigma.com/getting-started/how-to-write-an-effective-problem-statement/#:~:text=Key%20elements%20of%20an%20effective,environmental%2C%20personal%2C%20etc.)
+
+A problem statement is a about an area of concern that points out the need for meaningful understanding and deliberate investigation.
+
+Key elements of an effective problem statements include:
+
+- Gap: Identify the gap (pain) that exists today.
+- Timeframe, location and trend: Describe when and where the problem was first observed and what kind of trend it is following.
+- Impact: Quantify the gap (cost, time, quality, environmental, personal, etc.)
+- Importance: To the organization, the individual, etc. to better understand the urgency.
+
+-- Isixsigma, Rod Morgan
+
+
+### 7 questions to remember
+
+1) What is the problem that needs to be solved?
+2) Why is it a problem?
+3) Where is the problem observed? 
+4) Who is impacted?
+5) When was the project first observed?
+6) How was the problem observed?
+7) How often the problem is observed?
