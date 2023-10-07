@@ -154,9 +154,9 @@ Heres an example
 Releative paths seach with in the files of your page or project
 
 ```
-<a href = "README.md"> Our readme </a>
+<a href = "../README.md"> Our readme </a>
 ```
-<a href = "README.md"> Our readme </a>
+<a href = "../README.md"> Our readme </a>
 
 If you want you can also wrap and image tag with a link, this will make it so if you click the image it will take you to a link.
 Or by insead of putting a link or a path you can put an email. by you need to use the form: `mailto:email@example.com`
@@ -165,6 +165,40 @@ When you use a button you can use the onclick attribute to link to a webpage. [L
 
 
 # Images
+
+So you wanna put some pretty pictures on to your webpage. Well then lets dive right in to something that seems simple.
+
+Here's the tag:
+
+`img Ex: <img src="PrettyPictre.img" alt="A van gogh sunflower painting">`
+
+Just want to bring your attention to the alt here for a second, by using the alternate text here I can describe to you what this image is whithout showing you the image. Screen readers use the alternate text to decribe to low vision web users the image.\
+
+Style attribute id used to set the width and hight of your image. Use this format:
+`style="width:500px;height:600px"`
+
+If you don't want to use style use this format:
+`width="500" height="600"`
+In this case the with and heights are attributes in the previous example they were values.
+
+### Image floating
+
+That was easy <img src=".\images\That_was_easy.jpg" alt="That was easy meme" height="25%" width="25%">
+
+Well thats not a pretty formatting for that image... but I resized it i put i on the right line. Help...
+
+<img src=".\images\That_was_easy.jpg" alt="That was easy meme" height="25%" width="25%" style="float:left">
+
+
+Well this is a better format, the text is at the top of the page, and I can write what I want over here. But how?
+
+
+The float method alows you to put a page basicly any where you want here I used `float:left` so that the image is on the left and the words are on the right.
+
+But remember this floating can cause a lot of issues if your not careful. For exampe when I put the image in and asked it to float left suddently Tables and attribues headings were overlapping my image. Images can be dificult and not like the image says at all.
+
+But don't give up, every single webpage uses them so they arn't imposible.
+
 
 # Tables
 
