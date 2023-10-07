@@ -8,6 +8,7 @@
 - [Django](./DocumentFiles/Django.md)
 - [Scrum Lead Documentation/Tutorial](./DocumentFiles/Scrum.md)
 - [Student Project Reasearch](./DocumentFiles/projectDesign.md)
+- [HTML Documentation](./DocumentFiles/HTML.md)
 - Focused studies
   - [Models and Relationships](./DocumentFiles/models_relationships.md)
   - [Doing Django Migrations](./DocumentFiles/Migrations.md)
