@@ -7,6 +7,7 @@
 - [Links](#links)
 - [Images](#images)
 - [Tables](#Tables)
+- [Attributes](#attributes)
 - [Comments](#Comments)
 - [Refrences](#Refrences)
 
@@ -125,9 +126,72 @@ You can remember these with <u><b>D</b></u>escriptive <u><b>T</b></u>erm, and <u
 
 # Links
 
+Links allow you to jump to other pages. In HTML a link uses 
+
+`a Ex: <a href='url'>Link text</a>`
+
+Href is your first refrence to an attribute. [Learn more](#attributes)
+
+### Links have a few important attributes:
+
+The target attribute defines how and where to a link, and can take a few velues to help specify that.
+
+`_self` is the default and opens a link in the same tab as it was clicked. The `_blank` value opens the link in a seperate tab. `_parent` opens the document in the parent frame. `_top` opens the document in the full body of the window.
+
+Title is used to specify a more information about a link. 
+<a href="README.md" title="Go to out README page">Try hovering over me!</a>
+
+### Different types of paths
+
+Absolute paths will take you outside the scope of your project to find a file.
+Heres an example
+
+```
+<a href = "https://github.com/Awsome-O-clocks/CS-3300/blob/main/README.md"> Our readme </a>
+```
+<a href = "https://github.com/Awsome-O-clocks/CS-3300/blob/main/README.md"> Our readme </a>
+
+Releative paths seach with in the files of your page or project
+
+```
+<a href = "README.md"> Our readme </a>
+```
+<a href = "README.md"> Our readme </a>
+
+If you want you can also wrap and image tag with a link, this will make it so if you click the image it will take you to a link.
+Or by insead of putting a link or a path you can put an email. by you need to use the form: `mailto:email@example.com`
+
+When you use a button you can use the onclick attribute to link to a webpage. [Learn how to do buttons.](https://www.w3schools.com/tags/tag_button.asp)
+
+
 # Images
 
 # Tables
+
+# Attributes
+
+All HTML attributes have attributes, they provide additional information about elements. Attributes are only ever defined in the start tag.
+
+Its important to understand what attributes are availiable to you for each tag. 
+
+Just a few examples include:
+
+* Alt, provides a way to put allternate text for images. 
+* href, provides a link/path
+* src, provides an image path
+* style, allows controll over color font size and more.
+* lang, is used to specify the language of a page.
+
+There are quite a few attributes you need to keep in mind to make your webpage more accesiable. Do your research to find out how you can make your page more accesible. Screen readers use alot of information in your html to help people read. Remember to use them any time you can.
+
+Remember one of the easiest things to make you webpage more accessible is to use alt text in images. Markdown's alternate text is inside the brackets so remember to make whats inside the brackets is important don't just put `![Image](image/path)` put `![image of diagram, titled: title, describe the image](image/path)` It doesn't need to be a perfect description but if you can draw the imporant element based on the description its good.
+
+[Accsessiblilty W3 schools](https://www.w3schools.com/html/html_accessibility.asp)
+
+[Web Accessibility intiative](https://www.w3.org/WAI/standards-guidelines/)
+
+[Accessibility for people with cognitive and learning disabilities](https://www.w3.org/WAI/cognitive/)
+
 
 # Comments
 
@@ -136,3 +200,5 @@ You can remember these with <u><b>D</b></u>escriptive <u><b>T</b></u>erm, and <u
 [Elements and Tags](https://www.w3schools.com/html/html_elements.asp)
 
 [Lists](https://www.w3schools.com/html/html_lists.asp)
+
+[Attributes](https://www.w3schools.com/html/html_attributes.asp)
