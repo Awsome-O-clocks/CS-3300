@@ -202,6 +202,92 @@ But don't give up, every single webpage uses them so they arn't imposible.
 
 # Tables
 
+Tables can be unintuitve but im here to help we've got this!!!
+
+First the starter tag is super simple its just `table`. Next, each row has a tag `tr` or <u><b>t</b></u>able <u><b>r</b></u>ow. Next the colums these have actualy 2 differnt tags but their easy too. If your writting the title of the column use `th` for <u><b>t</b></u>able <u><b>r</b></u>ow and if your wriing a standard data in the column use `td` for <u><b>t</b></u>able <u><b>d</b></u>ata. Easy!!!
+
+Here's some example code: you'll notice that it may not be what you expected, but if you look at it as each row has multiple colums and the first 3 are the headers it might make more since.
+
+```
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+```
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+Notice the headers are bolded.
+
+You can also move those to the side if you want to make a horizontal table, takes a bit of reconfiguring but if you stay focused its easy.
+
+```
+<table>
+  <tr>
+    <th>Company</th>
+    <td>Alfreds Futterkiste</td>
+    <td>Centro comercial Moctezuma</td>
+  </tr>
+  <tr>
+    <th>Contact</th>
+    <td>Maria Anders</td>
+    <td>Francisco Chang</td>
+  </tr>
+  <tr>
+    <th>Country</th>
+    <td>Germany</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+```
+<table>
+  <tr>
+    <th>Company</th>
+    <td>Alfreds Futterkiste</td>
+    <td>Centro comercial Moctezuma</td>
+  </tr>
+  <tr>
+    <th>Contact</th>
+    <td>Maria Anders</td>
+    <td>Francisco Chang</td>
+  </tr>
+  <tr>
+    <th>Country</th>
+    <td>Germany</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+Take a look and make sure you understand what I changed around.
+
 # Attributes
 
 All HTML attributes have attributes, they provide additional information about elements. Attributes are only ever defined in the start tag.
@@ -229,6 +315,16 @@ Remember one of the easiest things to make you webpage more accessible is to use
 
 # Comments
 
+Comments are exaxtly what they sound like. A way to communicate inside of the code and make sure developers understand what your code does, how to use it, and if there is anything that might not be working as expected warn people about it so its not forgotten and fixed.
+
+Format:
+
+```
+<!-- Comment here -->
+```
+
+This is the same format as a multiline comment and can even be used inside code and it doesnt have to be outside or at the end of a section of code.
+
 # Refrences
 
 [Elements and Tags](https://www.w3schools.com/html/html_elements.asp)
@@ -236,3 +332,9 @@ Remember one of the easiest things to make you webpage more accessible is to use
 [Lists](https://www.w3schools.com/html/html_lists.asp)
 
 [Attributes](https://www.w3schools.com/html/html_attributes.asp)
+
+[Images](https://www.w3schools.com/html/html_images.asp)
+
+[Tabels](https://www.w3schools.com/html/html_tables.asp)
+
+[Comments](https://www.w3schools.com/html/html_comments.asp)
