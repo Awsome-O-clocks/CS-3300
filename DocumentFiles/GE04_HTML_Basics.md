@@ -7,4 +7,4 @@ add images to the website would have width and height attributes to change the s
 styling of websites. In order to make websites look appealing by adding colors, backgrounds, fonts, etc., HTML works with Cascading Style 
 Sheets (CSS), which is another language that changes how websites look rather than add information.
 
-Source: [W3Schools](https://www.w3schools.com/html/html_attributes.asp)
+Source: [HTML Basics from W3Schools](https://www.w3schools.com/html/html_attributes.asp)
