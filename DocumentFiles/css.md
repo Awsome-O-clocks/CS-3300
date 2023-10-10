@@ -2,7 +2,7 @@
 
 # CSS (Cascading Style Sheets)
 
-<style>
+<!-- <style>
     body {
         font-family: "Times New Roman", Times, serif;
 
@@ -18,14 +18,15 @@
         padding: 5px;
     }
     
-</style>
+</style> -->
 
 <body>
 
 <div class="Intro"> 
 
 :exclamation:
-CSS stands for Cascading Style Sheets. It is a stylesheet language used for describing the look and formatting of a document written in HTML (or in markdown, see the source code for this document :) ). CSS describes how elements should be rendered on a device's screen.</p></div>
+CSS stands for Cascading Style Sheets. It is a stylesheet language used for describing the look and formatting of a document written in HTML (~~or in markdown, see the source code for this document :)~~ *I lied... github strips the css. :(* ). CSS describes how elements should be rendered on a device's screen.
+</div>
 
 
 ## Function of CSS
