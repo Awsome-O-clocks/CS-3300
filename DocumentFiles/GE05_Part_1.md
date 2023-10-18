@@ -24,7 +24,10 @@ student_active_portfolios = Student.objects.select_related('portfolio').all().fi
 The code returns only the portfolios that are set to active, that is the portfolios with the “active” checkbox selected when the portfolios were created.
 
 5. Explore the code in index .html Built-in template tags and filters | Django documentation 
-My index.html file is used for the home page of my web app. There are header tags in the file that correspond to the headers being displayed. 
+My index.html file is used for the home page of my web app. There are header tags in the file that correspond to the headers being displayed.
+![image](https://github.com/Awsome-O-clocks/CS-3300/assets/98108967/640a4213-f6e4-43e8-a5a4-2a8e3b8e94a9)
+
+![image](https://github.com/Awsome-O-clocks/CS-3300/assets/98108967/cfb84a4a-117c-4f97-bb34-183253cf96cd)
 
 It is also important to note that my index.html file is an extension of my base_template.html file. My base template is used as a template for my entire web app, while the index file specifically focuses on the home page.
  
