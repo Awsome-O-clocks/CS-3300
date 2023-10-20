@@ -199,10 +199,23 @@ Issues with GE03:
 
 Alex:
 When ever she tried to migrate, recieved this error: (Posibly due to attemting to migrate with a populated database)
-![Not null constraint failed](https://github.com/Awsome-O-clocks/CS-3300/blob/Documentation-Developement/DocumentFiles/images/Not%20Null%20constraint.PNG)
+![Not null constraint failed](/images/Not_Null_constraint.PNG)
 
 Fix: Delete db.sqlite3 file, then delete all migrations in Migration file, run `python manage.py flush` answer yes, run migrate, then run makemigrations then migrate again.
 run server.
+
+GE05:
+
+Alex and Ray:
+
+(WILL INSERT IMAGE OF BUG)
+
+When trying to make a webpage with an internal link. You must have the path
+defined in the url.py. You must also have the general detail class made.
+Having the webpage is not nessisary to load the page with the link but if you
+try to click on the link a 404 error will appear. Make the html page to fix this.
+
+
 
 
 
