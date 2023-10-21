@@ -325,6 +325,27 @@ Format:
 
 This is the same format as a multiline comment and can even be used inside code and it doesnt have to be outside or at the end of a section of code.
 
+# Forms
+
+<form>
+<input type="text"><br>
+<input type="radio"> These must have an name attribute to link multiple together<br> 
+<input type="checkbox">These must have an name attribute to link multiple together<br>
+<input type="submit"><br>
+<input type="button"><br>
+</form>
+
+<form>
+<label for = "tempRadio1"> option 1 </label>
+<input type="radio" name = “TempRadio” id="TempRadio1"><br>
+<input type="radio" name = “TempRadio” id="TempRadio2">
+<label for = "tempRadio2"> option 2 </label><br>
+<input type="radio" name = “TempRadio” id="TempRadio3"> 
+<p>option 3</p>
+</form>
+
+
+
 # Refrences
 
 [Elements and Tags](https://www.w3schools.com/html/html_elements.asp)
@@ -338,3 +359,5 @@ This is the same format as a multiline comment and can even be used inside code 
 [Tabels](https://www.w3schools.com/html/html_tables.asp)
 
 [Comments](https://www.w3schools.com/html/html_comments.asp)
+
+[Forms](https://www.w3schools.com/html/html_forms.asp)

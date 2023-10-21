@@ -215,9 +215,92 @@ defined in the url.py. You must also have the general detail class made.
 Having the webpage is not nessisary to load the page with the link but if you
 try to click on the link a 404 error will appear. Make the html page to fix this.
 
+### Django Queries
+
+Inorder to get a query into the portfolio html page
+
+```
+def get_context_data(self, **kwargs):
+  # Call the base implementation first to get the context
+  context = super(PortfolioDetailView, self).get_context_data(**kwargs)
+  # Create any data and add it to the context
+  projects = Project.objects.filter(portfolio_id =self.get_object().id)
+  print("projects query set", projects)
+  context['projects'] = projects
+  return context
+```
+This is in the PrortfolioDetailView() in Veiws.py
+
+Making it posible to get the projects query inside the html page.
+
+To actulatly call this query use
+
+```
+{% if projects%}
+or
+{% for project in projects %}
+or
+...
+```
+
+### Create Project
+When I was trying to make the CreateProject() I kept getting a type Error, saying it was getting an unexpected keyword. 
+
+```
+def createProject(request, portfolio_id):
+```
+I was missing the portfolio_id in the function.
+
+if the project int actualy being saved make sure you bring in the CHATGBT code from GE05.
+
+You will also need to import a few libraries.
+
+```
+from django.shortcuts import redirect, render
+```
+
+### UpdateProject and DeleteProject
+
+When passing in two or more variable into a url like:
+
+```
+a href = "{% url 'update_project' portfolio.id project.id %}" class="btn btn-primary">Update</a>
+```
+I had an issue where the protfolio.id and project.id were getting mixed and messed up.
+In url.py i change the url template to:
+
+```
+path('portfolio/<int:portfolio_id>/<int:project_id>/update_project/', views.updateProject, name='update_project'),
+```
+
+With a slash in between the two ints.
+
+### Update Portfolio
+
+The Teacher's code seemed to have an error. It was making new portfolios rather than updating them.
+
+```
+def updatePortfolio(request, portfolio_id):
+    portfolio = Portfolio.objects.get(id = portfolio_id)
+    form = PortfolioForm(instance=portfolio)
+
+    if request.method == 'POST':
+        # Retrieve the portfolio based on the portfolio_id
+        print('printing POST:', request.POST)
+        print('portfolio id:', portfolio_id)
+        form = PortfolioForm(request.POST, instance=portfolio)
+        
+        if form.is_valid():
+            # Save the form without committing to the database
+            portfolio = form.save(commit=False)
+            # Set the portfolio relationship
+            portfolio.save()
+            # Redirect back to the portfolio detail page
+            return redirect('portfolio-detail', portfolio_id)
 
 
+    context = {'form': form}
+    return render(request, 'portfolio_app/portfolio_form.html',context)
+```
 
-
-
-
+This is the code that fixed it.
